@@ -47,3 +47,7 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+
+function add() {
+    document.getElementById("textSpace").innerHTML = parseInt(document.getElementById("a").value) + parseInt(document.getElementById("b").value);
+}
